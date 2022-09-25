@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+body {
+    background-color: rgb(55, 22, 85);
+    text-align: center;
+    margin-top: -50px;
+}
+
+h1 {
+    font-size: 120px;
+    font-family: 'Akaya Kanadaka', cursive;
+    color: antiquewhite;
+    text-shadow: 3px 0 rgb(77, 72, 72);
+}
+
+.set {
+    margin: 8% auto;
+}
+
+.pressed{
+    box-shadow: 0 3px 4px 0 #dbedf3;
+    opacity: 0.5;
+}
+
+.red{
+    color: red;
+}
+.drum {
+    height: 150px;
+    width: 150px;
+    border: #402172 10px solid;
+    border-radius: 25px;
+    font-size: 100px;
+    font-family: 'Roboto Slab', serif;
+    color: #b5195a;
+    margin: 10px;
+    text-align: center;
+    text-shadow: 3px 0 rgb(36, 33, 33);
+    display: inline-block;
+}
+
+footer {
+    color: beige;
+    padding: 25px;
+}
+
+.w {
+    background-image: url("images/tom1.png");
+}
+
+.a {
+    background-image: url("images/tom2.png");
+}
+
+.s {
+    background-image: url("images/tom3.png");
+}
+
+.d {
+    background-image: url("images/tom4.png");
+}
+
+.j {
+    background-image: url("images/snare.png");
+}
+
+.k {
+    background-image: url("images/crash.png");
+}
+
+.l {
+    background-image: url("images/kick.png");
+}
